@@ -1,0 +1,14 @@
+# sets dont mantain order and sets dont have duplicate elements
+
+art_friends = {"Rolf", "Anne"}
+science_friends = {"Jen", "Charlie"}
+art_friends.add("Jen")
+
+print(art_friends)
+
+art_friends.add("Jen")
+
+print(art_friends)
+
+art_friends.remove("Jen")
+print(art_friends)
