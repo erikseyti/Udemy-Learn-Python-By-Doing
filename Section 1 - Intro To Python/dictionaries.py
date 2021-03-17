@@ -17,6 +17,7 @@ print(friends[0]["name"])
 print(friends[1]["name"])
 print(friends[2]["name"])
 
+# transform a list of tuples in a dictionary.
 friends = [("Rolf", 24), ("Adam", 30), ("Anne", 27)]
 friends_ages = dict(friends)
 print(friend_ages)
